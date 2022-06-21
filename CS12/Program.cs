@@ -26,7 +26,7 @@ namespace CS12
             Console.Write("Введите баланс евро: ");
             eur = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine("Обменять рубли в доллары нажмите - 1 ");
-            Console.WriteLine("Обменять доллары на рубли нажмите - 2 ");
+            Console.WriteLine("Обменять доллары в рубли нажмите - 2 ");
             Console.WriteLine("Обменять рубли в евро нажмите - 3 ");
             Console.WriteLine("Обменять евро в рубли нажмите - 4 ");
             Console.WriteLine("Обменять доллары в евро нажмите - 5 ");
