@@ -48,6 +48,7 @@ namespace CS12
                     Console.WriteLine("Обмен рубли на доллары. ");
                     Console.Write("Сколько вы хотите обменять: ");
                     currencyCount = Convert.ToSingle(Console.ReadLine());
+                    
                     if (rub >= currencyCount)
                     {
                         rub -= currencyCount; 
@@ -62,6 +63,7 @@ namespace CS12
                     Console.WriteLine("Обмен доллары на рубли. ");
                     Console.Write("Сколько вы хотите обменять: ");
                     currencyCount = Convert.ToSingle(Console.ReadLine());
+                    
                     if (usd >= currencyCount)
                     {
                         usd -= currencyCount; 
@@ -76,6 +78,7 @@ namespace CS12
                     Console.WriteLine("Обмен рубли в евро. ");
                     Console.Write("Сколько вы хотите обменять: ");
                     currencyCount = Convert.ToSingle(Console.ReadLine());
+                    
                     if (rub >= currencyCount)
                     {
                         rub -= currencyCount; 
@@ -90,6 +93,7 @@ namespace CS12
                     Console.WriteLine("Обмен евро в рубли. ");
                     Console.Write("Сколько вы хотите обменять: ");
                     currencyCount = Convert.ToSingle(Console.ReadLine());
+                    
                     if (eur >= currencyCount)
                     {
                         eur -= currencyCount; 
@@ -104,6 +108,7 @@ namespace CS12
                     Console.WriteLine("Обмен доллары в евро. ");
                     Console.Write("Сколько вы хотите обменять: ");
                     currencyCount = Convert.ToSingle(Console.ReadLine());
+                    
                     if (usd >= currencyCount)
                     {
                         usd -= currencyCount; 
@@ -118,6 +123,7 @@ namespace CS12
                     Console.WriteLine("Обмен евро в доллары. ");
                     Console.Write("Сколько вы хотите обменять: ");
                     currencyCount = Convert.ToSingle(Console.ReadLine());
+                    
                     if (eur >= currencyCount)
                     {
                         eur -= currencyCount; 
