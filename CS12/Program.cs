@@ -42,7 +42,6 @@ namespace CS12
                 Console.WriteLine(stopProgram);
                 userInput = Console.ReadLine();
             }
-
             switch (userInput)
             {
                 case "1":
