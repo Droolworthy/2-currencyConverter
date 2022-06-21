@@ -63,7 +63,7 @@ namespace CS12
                     if (usd >= currencyCount)
                     {
                         usd -= currencyCount; 
-                        rub += currencyCount * usdToRub;
+                        rub += currencyCount / usdToRub;
                     }
                     else
                     {
@@ -91,7 +91,7 @@ namespace CS12
                     if (eur >= currencyCount)
                     {
                         eur -= currencyCount; 
-                        rub += currencyCount * eurToRub;
+                        rub += currencyCount / eurToRub;
                     }
                     else
                     {
@@ -119,7 +119,7 @@ namespace CS12
                     if (eur >= currencyCount)
                     {
                         eur -= currencyCount; 
-                        usd += currencyCount * eurToUsd;
+                        usd += currencyCount / eurToUsd;
                     }
                     else
                     {
