@@ -37,7 +37,7 @@ namespace CS12
             if (userInput != "exit")
             {
                 Console.WriteLine(stopProgram);
-                userInput = Convert.ToString(Console.ReadLine());
+                userInput = Console.ReadLine();
             }
 
             switch (userInput)
