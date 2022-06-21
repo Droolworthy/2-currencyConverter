@@ -27,10 +27,10 @@ namespace CS12
             eur = Convert.ToSingle(Console.ReadLine());
             Console.WriteLine("Обменять рубли в доллары нажмите - 1 ");
             Console.WriteLine("Обменять доллары на рубли нажмите - 2 ");
-            Console.WriteLine("Обменять доллары в рубли нажмите - 3 ");
-            Console.WriteLine("Обменять доллары в евро нажмите - 4 ");
-            Console.WriteLine("Обменять евро в доллары нажмите - 5 ");
-            Console.WriteLine("Обменять евро в рубли нажмите - 6 ");
+            Console.WriteLine("Обменять рубли в евро нажмите - 3 ");
+            Console.WriteLine("Обменять евро в рубли нажмите - 4 ");
+            Console.WriteLine("Обменять доллары в евро нажмите - 5 ");
+            Console.WriteLine("Обменять евро в доллары нажмите - 6 ");
             Console.WriteLine("Для того чтобы выйти из банка напишите - exit");
             userInput = Console.ReadLine();
 
@@ -118,7 +118,7 @@ namespace CS12
                     currencyCount = Convert.ToSingle(Console.ReadLine());
                     if (eur >= currencyCount)
                     {
-                        rub -= currencyCount; 
+                        eur -= currencyCount; 
                         usd += currencyCount * eurToUsd;
                     }
                     else
