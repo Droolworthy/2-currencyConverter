@@ -18,13 +18,16 @@ namespace CS12
             string userInput;
             float currencyCount;
             string stopProgram = "exit";
+            
             Console.WriteLine("Приветствую вас в нашем банке. Здесь вы можете обменять валюты.");
+            
             Console.Write("Введите баланс рублей: ");
             rub = Convert.ToSingle(Console.ReadLine());
             Console.Write("Введите баланс долларов: ");
             usd = Convert.ToSingle(Console.ReadLine());
             Console.Write("Введите баланс евро: ");
             eur = Convert.ToSingle(Console.ReadLine());
+            
             Console.WriteLine("Обменять рубли в доллары нажмите - 1 ");
             Console.WriteLine("Обменять доллары в рубли нажмите - 2 ");
             Console.WriteLine("Обменять рубли в евро нажмите - 3 ");
@@ -127,6 +130,7 @@ namespace CS12
                     }
                     break;
             }
+            
             Console.WriteLine($"Ваш баланс - {rub} рублей, {usd} - долларов и {eur} - евро");
             Console.WriteLine("Программа остановлена.");
         }
